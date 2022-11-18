@@ -1,7 +1,7 @@
 Package: shinylight
 Title: Web Interface to 'R' Functions
-Version: 1.0.0
-Date: 2022-10-18
+Version: 1.1
+Date: 2022-11-18
 Authors@R: c(
     person("Pieter", "Vermeesch", email = "p.vermeesch@ucl.ac.uk", role = c("aut")),
     person("Tim", "Band", email = "t.band@ucl.ac.uk", role = c("aut", "cre")))
@@ -26,6 +26,6 @@ License: GPL-3
 RoxygenNote: 7.2.1
 Encoding: UTF-8
 NeedsCompilation: no
-Packaged: 2022-10-18 12:38:36 UTC; tim
+Packaged: 2022-11-18 11:28:22 UTC; tim
 Repository: CRAN
-Date/Publication: 2022-10-18 14:10:02 UTC
+Date/Publication: 2022-11-18 14:50:02 UTC

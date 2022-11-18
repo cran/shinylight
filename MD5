@@ -1,7 +1,7 @@
-1a5d01819185ea00eb8221edea660daf *DESCRIPTION
+ae01f19a64bb31f84c8b5879d9c0c9a3 *DESCRIPTION
 36ab9282d002c1128485025f5072194c *NAMESPACE
-1c33182499331efdc1305bc3d51d63d9 *R/shinylight.R
-5919e1010f2a1d52c5495e88259d9ccd *README.md
+654d8a7bae55e1612695887a512602a1 *R/shinylight.R
+ff33f06c9d99043d651cbab92bd551e3 *README.md
 c77974aa2a419e59ab743a9e93ec0b64 *inst/www/css/dataentrygrid.css
 1e81397aa222c7d9f52932c1832a30c8 *inst/www/css/shinylight.css
 c9fa0e16b58f2702867fecd85245f317 *inst/www/images/favicon.ico
@@ -21,7 +21,7 @@ aa2c9cdbc6cc9db75e0f4479b5e28a45 *man/encodePlotAs.Rd
 e137934ef890d2a91f72ee7ba298a580 *man/framework.shinylightFrameworkStart.Rd
 0ac332b7b9ea6e109c7c2e5128dc40b6 *man/getAddress.Rd
 b6ed9c264c704a66ced59c9220d1cd1c *man/indexWithInit.Rd
-192433152499fa724ca22aefaf71fefc *man/rrpcServer.Rd
+e314a9e44663cd6468adcaa14466559e *man/rrpcServer.Rd
 5afca8e5d48338bb39d0dafbe2c0c99a *man/runR.Rd
 6d770d7e6106b451a6d01d738b2fe87f *man/sendInfoText.Rd
 6dfb6e057951dd601662435832428dc5 *man/sendProgress.Rd
