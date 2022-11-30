@@ -518,8 +518,15 @@ encodePlotAs <- function(format, plotFn) {
     encodePlot(grDevices::svg, "image/svg+xml",
         format$width, format$height, plotFn)
   } else if (format$type == "pdf") {
-    encodePlot(grDevices::pdf, "application/pdf",
-        format$width, format$height, plotFn)
+    encodePlot(
+      function(file, ...) {
+        grDevices::pdf(file, useDingbats = FALSE, ...)
+      },
+      "application/pdf",
+      format$width,
+      format$height,
+      plotFn
+    )
   } else {
     stop(paste("Did not understand plot type", type))
   }
