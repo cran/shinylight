@@ -1,7 +1,7 @@
 Package: shinylight
 Title: Web Interface to 'R' Functions
-Version: 1.1.2
-Date: 2022-11-30
+Version: 1.2
+Date: 2024-04-22
 Authors@R: c(
     person("Pieter", "Vermeesch", email = "p.vermeesch@ucl.ac.uk", role = c("aut")),
     person("Tim", "Band", email = "t.band@ucl.ac.uk", role = c("aut", "cre")))
@@ -23,9 +23,9 @@ Imports: grDevices (>= 3.6.2), httpuv (>= 1.5.4), jsonlite (>= 1.6.1),
         later (>= 1.0)
 Suggests: websocket (>= 1.4.1)
 License: GPL-3
-RoxygenNote: 7.2.1
+RoxygenNote: 7.3.1
 Encoding: UTF-8
 NeedsCompilation: no
-Packaged: 2022-11-30 10:51:23 UTC; tim
+Packaged: 2024-04-22 18:31:05 UTC; ucfbtpb
 Repository: CRAN
-Date/Publication: 2022-11-30 12:30:02 UTC
+Date/Publication: 2024-04-23 00:00:10 UTC

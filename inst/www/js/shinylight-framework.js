@@ -354,6 +354,22 @@ function shinylightFrameworkStart(options) {
     toolkit.forEach(headerParams, function(id, columnIndex) {
       p[id] = getColumn(columnIndex);
     });
+    // find number of useful rows (ignoring trailing empty rows)
+    var usefulCount = 0;
+    toolkit.forEach(headerParams, function(id) {
+      var col = p[id];
+      for (var i = col.length; i !== usefulCount; --i) {
+        var e = col[i - 1];
+        if (!isNaN(e) && e !== '') {
+          usefulCount = i;
+          return;
+        }
+      }
+    });
+    // truncate columns
+    toolkit.forEach(headerParams, function(id) {
+      p[id].length = usefulCount;
+    });
     // parameters from the main screen
     addMainParams(p);
     // relevant options
@@ -1029,6 +1045,11 @@ function shinylightFrameworkStart(options) {
       };
       reader.readAsText(file);
     }, buttonTranslations, createFileInput);
+    var clearData = toolkit.button('cleardata', function(callback) {
+      var cs = new Array(inputGrid.columnCount()).fill([null]);
+      inputGrid.setColumnArray(cs);
+      callback();
+    }, buttonTranslations);
     var plotFooter = toolkit.banner({
       downloadPlot: toolkit.button('download-pdf',
         downloadPdf, translations(['framework', 'buttons']))
@@ -1040,7 +1061,7 @@ function shinylightFrameworkStart(options) {
           downloadCsv(outputTable, 'output.csv')
           setTimeout(callback, 200);
         },
-        translations(['framework', 'buttons'])
+        buttonTranslations
       )
     }, 'output-footer');
     var outputDebugPage = toolkit.stack();
@@ -1056,7 +1077,7 @@ function shinylightFrameworkStart(options) {
         function() {
           downloadJsonText('debug.json', debugJson);
         },
-        translations(['framework', 'buttons'])
+        buttonTranslations
       )
     }, 'output-footer');
     debugFooter.setData = function(json) {
@@ -1077,6 +1098,7 @@ function shinylightFrameworkStart(options) {
     var leftFooter = toolkit.banner({
       savedata: saveData,
       loaddata: loadData,
+      cleardata: clearData,
       calculate: calculate1
     }, 'input-footer')
     var leftPane = toolkit.footer(leftFooter, inputPane);
