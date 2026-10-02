@@ -4,13 +4,13 @@
 \name{framework.shinylightFrameworkStart}
 \alias{framework.shinylightFrameworkStart}
 \title{JavaScript function: Starts the Shinylight Framework, if you want to use it.}
-\arguments{
-\item{options}{\code{object} [optional] An optional object containing options
+\section{Arguments}{\itemize{
+\item{\code{options} \code{object} [optional] An optional object containing options
 to modify the behaviour of the framework.}
-\item{options.createFileInput}{\code{function} [optional] A function to create
+\item{\code{options.createFileInput} \code{function} [optional] A function to create
 an element that uploads a file, as required for
 \code{toolkit.loadFileButton}.}
-}
+}}
 \description{
 The Shinylight Framework allows you to declare all your functions
 in R and have a nice-looking web front end for your code without

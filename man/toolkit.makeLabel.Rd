@@ -4,20 +4,20 @@
 \name{toolkit.makeLabel}
 \alias{toolkit.makeLabel}
 \title{JavaScript function: Makes a label suitable for labelling a control.}
-\arguments{
-\item{translations}{\code{object} \code{translations[id].name} is the string
+\section{Arguments}{\itemize{
+\item{\code{translations} \code{object} \code{translations[id].name} is the string
 to use as label's text, \code{translations[id].help} is the string to use as
 the label's tooltip. If \code{id} is undefined or null, \code{translations.name}
 and \code{translations.help} are used.}
-\item{container}{\code{\link{toolkit.HTMLControlContainerElement}} [optional] Where to put the
+\item{\code{container} \code{\link{toolkit.HTMLControlContainerElement}} [optional] Where to put the
 label.}
-\item{id}{\code{string} [optional] Where to look in \code{translations} for the text.}
-\item{idFor}{\code{string} [optional] The \code{id} attribute of the HTML element
+\item{\code{id} \code{string} [optional] Where to look in \code{translations} for the text.}
+\item{\code{idFor} \code{string} [optional] The \code{id} attribute of the HTML element
 that this element refers to.}
-}
-\value{
-The label.
-}
+}}
+\section{Return Value}{\itemize{
+\item The label.
+}}
 \description{
 The label has translatable text and a help tooltip (if translated for).
 }

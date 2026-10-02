@@ -4,18 +4,18 @@
 \name{toolkit.verticalDivide}
 \alias{toolkit.verticalDivide}
 \title{JavaScript function: Left/right panels with a draggable divider.}
-\arguments{
-\item{container}{\code{\link{toolkit.HTMLPositionedElement}} The container to divide.
+\section{Arguments}{\itemize{
+\item{\code{container} \code{\link{toolkit.HTMLPositionedElement}} The container to divide.
 If null, a container will be created for you.}
-\item{left}{\code{\link{toolkit.HTMLPositionedElement}} The element to put on
+\item{\code{left} \code{\link{toolkit.HTMLPositionedElement}} The element to put on
 the left of the divider.}
-\item{right}{\code{\link{toolkit.HTMLPositionedElement}} The element to put
+\item{\code{right} \code{\link{toolkit.HTMLPositionedElement}} The element to put
 on the right of the divider.}
-}
-\value{
-The element created.
+}}
+\section{Return Value}{\itemize{
+\item The element created.
 If a container was provided it is this argument.
-}
+}}
 \description{
 Returns a Positioned Element with a draggable vertical divider
 bordering two other Positioned Elements.

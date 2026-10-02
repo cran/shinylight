@@ -4,21 +4,21 @@
 \name{toolkit.paramBoolean}
 \alias{toolkit.paramBoolean}
 \title{JavaScript function: Returns a checkbox input Toolkit Control.}
-\arguments{
-\item{id}{\code{string} when \code{getData} or \code{setData} is
+\section{Arguments}{\itemize{
+\item{\code{id} \code{string} when \code{getData} or \code{setData} is
 called on the container, the value at \code{'id'} refers to this
 selector. The HTML id is set to \code{'param-' + id}.}
-\item{container}{\code{\link{toolkit.HTMLContainerElement}} [optional] Where to put the control.}
-\item{translations}{\code{object} Optional mapping: \code{translations.id}
+\item{\code{container} \code{\link{toolkit.HTMLContainerElement}} [optional] Where to put the control.}
+\item{\code{translations} \code{object} Optional mapping: \code{translations.id}
 is the name of the control to be displayed and \code{translations.help}
 is help text to be displayed if the user hovers over the label}
-\item{initial}{\code{string} Optional initial value for the control}
-\item{callback}{\code{function} Optional function to be called whenever the
+\item{\code{initial} \code{string} Optional initial value for the control}
+\item{\code{callback} \code{function} Optional function to be called whenever the
 input value changes}
-}
-\value{
-Checkbox input control.
-}
+}}
+\section{Return Value}{\itemize{
+\item Checkbox input control.
+}}
 \description{
 A control for a boolean value rendered as a checkbox.
 }

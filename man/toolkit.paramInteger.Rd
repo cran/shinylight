@@ -4,23 +4,23 @@
 \name{toolkit.paramInteger}
 \alias{toolkit.paramInteger}
 \title{JavaScript function: Returns an integer input Toolkit Control.}
-\arguments{
-\item{id}{\code{string} when \code{getData} or \code{setData} is
+\section{Arguments}{\itemize{
+\item{\code{id} \code{string} when \code{getData} or \code{setData} is
 called on the container, the value at \code{'id'} refers to this
 selector. The HTML id is set to \code{'param-' + id}.}
-\item{container}{\code{\link{toolkit.HTMLContainerElement}} [optional] Where to put the control.}
-\item{translations}{\code{object} Optional mapping: \code{translations.id}
+\item{\code{container} \code{\link{toolkit.HTMLContainerElement}} [optional] Where to put the control.}
+\item{\code{translations} \code{object} Optional mapping: \code{translations.id}
 is the name of the control to be displayed and \code{translations.help}
 is help text to be displayed if the user hovers over the label}
-\item{initial}{\code{string} Optional initial value for the control}
-\item{callback}{\code{function} Optional function to be called whenever the
+\item{\code{initial} \code{string} Optional initial value for the control}
+\item{\code{callback} \code{function} Optional function to be called whenever the
 input value changes}
-\item{min}{\code{int} Minimum permitted value (optional).}
-\item{max}{\code{int} Maximum permitted value (optional).}
-}
-\value{
-Text input control.
-}
+\item{\code{min} \code{int} Minimum permitted value (optional).}
+\item{\code{max} \code{int} Maximum permitted value (optional).}
+}}
+\section{Return Value}{\itemize{
+\item Text input control.
+}}
 \description{
 Values outside the permitted range will gain the "invalid" class,
 but there is no other effect.

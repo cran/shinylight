@@ -5,11 +5,11 @@
 \alias{shinylight.setElementPlot}
 \title{JavaScript function: Sets an \code{<img>} element to display a plot returned by
 \code{\link{runR}}.}
-\arguments{
-\item{elementOrId}{\code{string}, \code{HTMLImageElement} The
+\section{Arguments}{\itemize{
+\item{\code{elementOrId} \code{string}, \code{HTMLImageElement} The
 \code{<img>} element (or its id) that will receive the image.}
-\item{result}{\code{object} The result from \code{\link{runR}}.}
-}
+\item{\code{result} \code{object} The result from \code{\link{runR}}.}
+}}
 \description{
 Normally you do not need to call this because to get
 \code{shinylight} to produce a plot you need to set the

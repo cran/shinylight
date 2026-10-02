@@ -1,7 +1,7 @@
 Package: shinylight
 Title: Web Interface to 'R' Functions
-Version: 1.2
-Date: 2024-04-22
+Version: 1.3
+Date: 2026-09-03
 Authors@R: c(
     person("Pieter", "Vermeesch", email = "p.vermeesch@ucl.ac.uk", role = c("aut")),
     person("Tim", "Band", email = "t.band@ucl.ac.uk", role = c("aut", "cre")))
@@ -18,14 +18,14 @@ Description: Web front end for your 'R' functions producing plots or tables.
 Author: Pieter Vermeesch [aut],
   Tim Band [aut, cre]
 Maintainer: Tim Band <t.band@ucl.ac.uk>
-Depends: R (>= 3.0.0)
-Imports: grDevices (>= 3.6.2), httpuv (>= 1.5.4), jsonlite (>= 1.6.1),
+Depends: R (>= 4.0.0)
+Imports: grDevices (>= 3.6.2), httpuv (>= 1.5.4), jsonlite (>= 2.0.0),
         later (>= 1.0)
 Suggests: websocket (>= 1.4.1)
 License: GPL-3
 RoxygenNote: 7.3.1
 Encoding: UTF-8
 NeedsCompilation: no
-Packaged: 2024-04-22 18:31:05 UTC; ucfbtpb
+Packaged: 2026-10-02 14:23:56 UTC; tim
 Repository: CRAN
-Date/Publication: 2024-04-23 00:00:10 UTC
+Date/Publication: 2026-10-02 15:20:02 UTC

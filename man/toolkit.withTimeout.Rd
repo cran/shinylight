@@ -4,14 +4,14 @@
 \name{toolkit.withTimeout}
 \alias{toolkit.withTimeout}
 \title{JavaScript function: Adds a fake callback argument to a nullary function.}
-\arguments{
-\item{fn}{\code{function} Nullary function to wrap.}
-}
-\value{
-Unary function (taking one function as
+\section{Arguments}{\itemize{
+\item{\code{fn} \code{function} Nullary function to wrap.}
+}}
+\section{Return Value}{\itemize{
+\item Unary function (taking one function as
 an argument) that simply calls \code{fn} immediately then
 calls its argument again after 200ms.
-}
+}}
 \description{
 Perhaps you have a nullary function that you want called
 when the user clicks a button, but the \code{\link{toolkit.button}}

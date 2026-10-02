@@ -4,11 +4,11 @@
 \name{toolkit.button}
 \alias{toolkit.button}
 \title{JavaScript function: Returns a button.}
-\arguments{
-\item{id}{\code{string} The HTML id of the button will be
+\section{Arguments}{\itemize{
+\item{\code{id} \code{string} The HTML id of the button will be
 \code{'button-' + id}. It is also used in the interpretation of
 the \code{translations} argument.}
-\item{fn}{\code{function} Unary function that takes a single parameter
+\item{\code{fn} \code{function} Unary function that takes a single parameter
 of a nullary function. This function will be called on completion
 of the work (which will be used to remove the button's 'click'
 animation). If the function want to use as a callback does not take
@@ -16,14 +16,14 @@ an argument, you can wrap it in \code{\link{toolkit.withTimeout}}. You
 might also want to use \code{\link{toolkit.withTimeout}} if your
 function returns too quickly, otherwise the user might not see
 the button click.}
-\item{translations}{\code{object} An object with a key \code{id}
+\item{\code{translations} \code{object} An object with a key \code{id}
 having a value that is an object having a key \code{'name'}
 with value the display name of the button, and optionally a key
 \code{'help'} with value of the tooltip text.}
-}
-\value{
-The button.
-}
+}}
+\section{Return Value}{\itemize{
+\item The button.
+}}
 \description{
 This button is an HTML element, but it is not an HTML button.
 Styling and JavaScript provide the button-like look-and-feel.

@@ -4,17 +4,17 @@
 \name{toolkit.preformattedText}
 \alias{toolkit.preformattedText}
 \title{JavaScript function: A static text Toolkit Control in a preformatted style.}
-\arguments{
-\item{id}{\code{string} The ID of this control within the container}
-\item{container}{\code{\link{toolkit.HTMLContainerElement}} [optional] Where to put the control.}
-\item{translations}{\code{object} An object with keys \code{'name'}
+\section{Arguments}{\itemize{
+\item{\code{id} \code{string} The ID of this control within the container}
+\item{\code{container} \code{\link{toolkit.HTMLContainerElement}} [optional] Where to put the control.}
+\item{\code{translations} \code{object} An object with keys \code{'name'}
 for the label displayed by the text and \code{'help'} for tooltop text.}
-}
-\value{
-The static text element. The text content
+}}
+\section{Return Value}{\itemize{
+\item The static text element. The text content
 can be set by calling its \code{setData()} function with any plain
 text.
-}
+}}
 \description{
 This element is like a control in that it has a label and actual
 text content, but it is not interactive.

@@ -4,10 +4,10 @@
 \name{shinylight.setGridResultWithNamedRows}
 \alias{shinylight.setGridResultWithNamedRows}
 \title{JavaScript function}
-\arguments{
-\item{grid}{\code{DataEntryGrid} Table that receives the result}
-\item{result}{\code{object} Return value promised by \code{\link{runR}}}
-}
+\section{Arguments}{\itemize{
+\item{\code{grid} \code{DataEntryGrid} Table that receives the result}
+\item{\code{result} \code{object} Return value promised by \code{\link{runR}}}
+}}
 \description{
 Sets a \code{dataentrygrid} object to the result of
 \code{\link{runR}}. The object will have fixed rows, with

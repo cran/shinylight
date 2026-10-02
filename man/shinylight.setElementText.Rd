@@ -4,11 +4,11 @@
 \name{shinylight.setElementText}
 \alias{shinylight.setElementText}
 \title{JavaScript function}
-\arguments{
-\item{elementOrId}{\code{string}, \code{HTMLElement} The element (or its id)
+\section{Arguments}{\itemize{
+\item{\code{elementOrId} \code{string}, \code{HTMLElement} The element (or its id)
 that will have its text set}
-\item{text}{\code{string} The text to set into the element}
-}
+\item{\code{text} \code{string} The text to set into the element}
+}}
 \description{
 Sets the text content of an element (or its \code{value} as
 appropriate).

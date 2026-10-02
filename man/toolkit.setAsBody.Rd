@@ -4,9 +4,9 @@
 \name{toolkit.setAsBody}
 \alias{toolkit.setAsBody}
 \title{JavaScript function: Replaces the \code{<main>} tag in the document with this element.}
-\arguments{
-\item{el}{\code{HTMLElement} The element to set as \code{<main>}}
-}
+\section{Arguments}{\itemize{
+\item{\code{el} \code{HTMLElement} The element to set as \code{<main>}}
+}}
 \description{
 The element will have its \code{resize} event wired up. If \code{el}
 is a Toolkit Positioned Element, it will be resized correctly when the

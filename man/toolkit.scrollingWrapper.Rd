@@ -4,16 +4,16 @@
 \name{toolkit.scrollingWrapper}
 \alias{toolkit.scrollingWrapper}
 \title{JavaScript function: Returns a Positioned Element just containing one element.}
-\arguments{
-\item{element}{\code{HTMLElement} The element to be wrapped}
-\item{verticalPadding}{\code{int} The number of extra pixels above the element's
+\section{Arguments}{\itemize{
+\item{\code{element} \code{HTMLElement} The element to be wrapped}
+\item{\code{verticalPadding} \code{int} The number of extra pixels above the element's
 height to use as the returned element's default height.}
-\item{horizontalPadding}{\code{int} The number of extra pixels above the element's
+\item{\code{horizontalPadding} \code{int} The number of extra pixels above the element's
 width to use as the returned element's default width.}
-}
-\value{
-The wrapper.
-}
+}}
+\section{Return Value}{\itemize{
+\item The wrapper.
+}}
 \description{
 This element gains scrollbars if it is too large for this returned container.
 }

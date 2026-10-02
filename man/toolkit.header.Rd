@@ -4,14 +4,14 @@
 \name{toolkit.header}
 \alias{toolkit.header}
 \title{JavaScript function: A panel with a smaller header.}
-\arguments{
-\item{hdr}{\code{HTMLElement} The header element.}
-\item{main}{\code{\link{toolkit.HTMLPositionedElement}} The body element.}
-}
-\value{
-The element containing
+\section{Arguments}{\itemize{
+\item{\code{hdr} \code{HTMLElement} The header element.}
+\item{\code{main} \code{\link{toolkit.HTMLPositionedElement}} The body element.}
+}}
+\section{Return Value}{\itemize{
+\item The element containing
 the header and body.
-}
+}}
 \description{
 Returns a Positioned Element consisting of a header and a body.
 }

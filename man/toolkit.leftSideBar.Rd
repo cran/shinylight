@@ -4,14 +4,14 @@
 \name{toolkit.leftSideBar}
 \alias{toolkit.leftSideBar}
 \title{JavaScript function: A panel with a side bar.}
-\arguments{
-\item{bar}{\code{HTMLElement} The side bar element.}
-\item{main}{\code{\link{toolkit.HTMLPositionedElement}} The body element.}
-}
-\value{
-The Toolkit Positioned Element containing
+\section{Arguments}{\itemize{
+\item{\code{bar} \code{HTMLElement} The side bar element.}
+\item{\code{main} \code{\link{toolkit.HTMLPositionedElement}} The body element.}
+}}
+\section{Return Value}{\itemize{
+\item The Toolkit Positioned Element containing
 the side bar and body.
-}
+}}
 \description{
 Returns a Positioned Element consisting of a left side bar and a body.
 }

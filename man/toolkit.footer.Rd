@@ -4,14 +4,14 @@
 \name{toolkit.footer}
 \alias{toolkit.footer}
 \title{JavaScript function: A panel with a smaller footer.}
-\arguments{
-\item{ftr}{\code{HTMLElement} The footer element.}
-\item{main}{\code{\link{toolkit.HTMLPositionedElement}} The body element.}
-}
-\value{
-The element containing
+\section{Arguments}{\itemize{
+\item{\code{ftr} \code{HTMLElement} The footer element.}
+\item{\code{main} \code{\link{toolkit.HTMLPositionedElement}} The body element.}
+}}
+\section{Return Value}{\itemize{
+\item The element containing
 the footer and body.
-}
+}}
 \description{
 Returns a Positioned Element consisting of a body and a footer.
 }

@@ -4,12 +4,12 @@
 \name{toolkit.any}
 \alias{toolkit.any}
 \title{JavaScript function: Finds if a predicate is true for any member of an array or object.}
-\arguments{
-\item{a}{\code{object} Object or array to be iterated through.}
-\item{p}{\code{function} Function to call with two arguments: the key
+\section{Arguments}{\itemize{
+\item{\code{a} \code{object} Object or array to be iterated through.}
+\item{\code{p} \code{function} Function to call with two arguments: the key
 of the element (or index in the case of an array) and the value;
 should return a boolean.}
-}
+}}
 \description{
 Calls a function for each member of an array or object until either
 one of them returns true (in which case \code{any} returns true) or

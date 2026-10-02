@@ -4,15 +4,15 @@
 \name{toolkit.deref}
 \alias{toolkit.deref}
 \title{JavaScript function: Dereferences an object or array through multiple indices.}
-\arguments{
-\item{object}{\code{object} The object to be dereferenced.}
-\item{path}{\code{Array} The series of indices to be applied.}
-\item{defaultValue}{\code{\link{toolkit.any}} The default value to be returned if
+\section{Arguments}{\itemize{
+\item{\code{object} \code{object} The object to be dereferenced.}
+\item{\code{path} \code{Array} The series of indices to be applied.}
+\item{\code{defaultValue} \code{\link{toolkit.any}} The default value to be returned if
 the path cannot be followed to the end.}
-}
-\value{
-Object dereferenced, \code{defaultValue}, or null.
-}
+}}
+\section{Return Value}{\itemize{
+\item Object dereferenced, \code{defaultValue}, or null.
+}}
 \description{
 \code{deref(o, [a,b,c], d)} is a safe way of doing
 \code{o[a][b][c]}. If that path does not exist, d is returned.

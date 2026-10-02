@@ -4,13 +4,13 @@
 \name{toolkit.groupTitle}
 \alias{toolkit.groupTitle}
 \title{JavaScript function: Option group title}
-\arguments{
-\item{container}{\code{HTMLElement} The container, preferably the
+\section{Arguments}{\itemize{
+\item{\code{container} \code{HTMLElement} The container, preferably the
 return value from \code{\link{toolkit.optionsPage}}.}
-\item{labelTranslations}{\code{object} An object with two keys:
+\item{\code{labelTranslations} \code{object} An object with two keys:
 \code{'name'} is the display text for this title,
 \code{'help'} (optional) is the tooltip text.}
-}
+}}
 \description{
 Adds a group title to an \code{\link{toolkit.optionsPage}}.
 }

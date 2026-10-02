@@ -5,16 +5,16 @@
 \alias{toolkit.whenQuiet}
 \title{JavaScript function: Transforms a function that should not be called too often into
 a function that can be called as often as you like.}
-\arguments{
-\item{ticks}{\code{int} Duration (x 100ms) to wait until calling the
+\section{Arguments}{\itemize{
+\item{\code{ticks} \code{int} Duration (x 100ms) to wait until calling the
 delgate function.}
-\item{f}{\code{function} Delegate function to be called
+\item{\code{f} \code{function} Delegate function to be called
 \code{ticks} ticks after the last call to the retuned function.}
-}
-\value{
-Function that can be called often, resulting in fewer
+}}
+\section{Return Value}{\itemize{
+\item Function that can be called often, resulting in fewer
 calls to the delegate function \code{f}.
-}
+}}
 \description{
 The returned function can be called as often as you like with
 whatever arguments you like. If it is called again within

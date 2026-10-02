@@ -4,19 +4,19 @@
 \name{toolkit.staticText}
 \alias{toolkit.staticText}
 \title{JavaScript function: A static text Toolkit Control.}
-\arguments{
-\item{id}{\code{string} The ID of this control within the container}
-\item{container}{\code{\link{toolkit.HTMLContainerElement}} [optional] Where to put the control.}
-\item{translations}{\code{object} An object with keys \code{'name'}
+\section{Arguments}{\itemize{
+\item{\code{id} \code{string} The ID of this control within the container}
+\item{\code{container} \code{\link{toolkit.HTMLContainerElement}} [optional] Where to put the control.}
+\item{\code{translations} \code{object} An object with keys \code{'name'}
 for the label displayed by the text and \code{'help'} for tooltop text.}
-}
-\value{
-The static text element. The text
+}}
+\section{Return Value}{\itemize{
+\item The static text element. The text
 content can be set by calling its \code{setData()} function. This text
 can include HTML entities, so you might want to replace \code{&}
 with \code{&amp;} and \code{<} with \code{&lt;} if it is plain
 text.
-}
+}}
 \description{
 This element is like a control in that it has a label and actual
 text content, but it is not interactive.

@@ -4,15 +4,15 @@
 \name{toolkit.overlay}
 \alias{toolkit.overlay}
 \title{JavaScript function: A panel with an overlay.}
-\arguments{
-\item{overlay}{\code{HTMLElement} The higher element. Any
+\section{Arguments}{\itemize{
+\item{\code{overlay} \code{HTMLElement} The higher element. Any
 \code{getData()} or \code{setData()} call on the
 returned element will not be passed on to this overlay element.}
-\item{main}{\code{\link{toolkit.HTMLPositionedElement}} The lower element.}
-}
-\value{
-The element containing both elements.
-}
+\item{\code{main} \code{\link{toolkit.HTMLPositionedElement}} The lower element.}
+}}
+\section{Return Value}{\itemize{
+\item The element containing both elements.
+}}
 \description{
 Returns a Positioned Element consisting of two elements
 placed in the same position. To be able to see the lower (main)

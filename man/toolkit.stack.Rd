@@ -5,12 +5,12 @@
 \alias{toolkit.stack}
 \title{JavaScript function: Returns a Container Element for displaying controls
 vertically.}
-\arguments{
-\item{elements}{\code{Array.<HTMLElement>} Initial array of elements to be added.}
-}
-\value{
-A Container Element for displaying elements vertically.
-}
+\section{Arguments}{\itemize{
+\item{\code{elements} \code{Array.<HTMLElement>} Initial array of elements to be added.}
+}}
+\section{Return Value}{\itemize{
+\item A Container Element for displaying elements vertically.
+}}
 \description{
 Returns a Container Element with a
 \code{makeSubElement} method that adds elements vertically,

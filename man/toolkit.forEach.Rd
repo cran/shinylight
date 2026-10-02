@@ -4,11 +4,11 @@
 \name{toolkit.forEach}
 \alias{toolkit.forEach}
 \title{JavaScript function}
-\arguments{
-\item{a}{\code{object} Object or array to be iterated through.}
-\item{f}{\code{function} Function to call with two arguments: the key
+\section{Arguments}{\itemize{
+\item{\code{a} \code{object} Object or array to be iterated through.}
+\item{\code{f} \code{function} Function to call with two arguments: the key
 of the element (or index in the case of an array) and the value.}
-}
+}}
 \description{
 Calls a function for each member of an array or object.
 }

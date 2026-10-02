@@ -4,13 +4,13 @@
 \name{toolkit.banner}
 \alias{toolkit.banner}
 \title{JavaScript function}
-\arguments{
-\item{elements}{\code{Array.<HTMLControlElement>} Initial array of elements to be added.}
-\item{className}{\code{string} HTML class for the returned banner.}
-}
-\value{
-The banner element.
-}
+\section{Arguments}{\itemize{
+\item{\code{elements} \code{Array.<HTMLControlElement>} Initial array of elements to be added.}
+\item{\code{className} \code{string} HTML class for the returned banner.}
+}}
+\section{Return Value}{\itemize{
+\item The banner element.
+}}
 \description{
 Returns a Container Element for displaying controls horizontally.
 }

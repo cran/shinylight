@@ -5,8 +5,8 @@
 \alias{toolkit.pages}
 \title{JavaScript function: Returns a Positioned Element for displaying controls in
 tabbed pages.}
-\arguments{
-\item{pageElements}{\code{object} dictionary of pageIds to elements
+\section{Arguments}{\itemize{
+\item{\code{pageElements} \code{object} dictionary of pageIds to elements
 (that will be added to the return value of this function). These
 elements each need methods \code{show}, \code{hide} and
 \code{setData} (like the ones returned by \code{\link{toolkit.header}},
@@ -15,15 +15,15 @@ elements each need methods \code{show}, \code{hide} and
 (that is to say, Positioned Elements) if they are to be
 output pages. Only \code{show} and \code{hide} if they are to be
 available permanently and not be set through the \code{setData} call.}
-\item{labelTranslations}{\code{object} dictionary of pageIds to objects
+\item{\code{labelTranslations} \code{object} dictionary of pageIds to objects
 with keys \code{name} (for the label text) and \code{help} (for
 tooltip help HTML)}
-\item{tabIdPrefix}{\code{string} If you want HTML IDs for your tab
+\item{\code{tabIdPrefix} \code{string} If you want HTML IDs for your tab
 elements, set this and the ID will be set to
 \code{tabIdPrefix + pageId}.}
-}
-\value{
-An element that has the
+}}
+\section{Return Value}{\itemize{
+\item An element that has the
 tabs and the tabs that switch between them. The active tab has
 the "active" class. It has the following extra methods:
 \code{setData(data)}: data is a dictionary with keys matching the
@@ -33,7 +33,7 @@ corresponding radio buttons) are summarily disabled. Pages with
 data are enabled. \code{reposition()}: sets each page to the same
 dimensions as the container and calls each page's
 \code{reposition()} method (if it exists).
-}
+}}
 \description{
 Only one page will be visible at a time. The returned element
 has \code{getData} and \code{setData} methods that take or

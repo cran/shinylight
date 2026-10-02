@@ -4,14 +4,14 @@
 \name{shinylight.makeTable}
 \alias{shinylight.makeTable}
 \title{JavaScript function}
-\arguments{
-\item{data}{\code{object} Data as returned from R}
-\item{extraColumns}{\code{Array.<string>}, \code{number} The extra column headers
+\section{Arguments}{\itemize{
+\item{\code{data} \code{object} Data as returned from R}
+\item{\code{extraColumns} \code{Array.<string>}, \code{number} The extra column headers
 required or the number of extra columns required.}
-}
-\value{
-Headers and rows
-}
+}}
+\section{Return Value}{\itemize{
+\item Headers and rows
+}}
 \description{
 Turns data received from R into a form that can be set into
 dataentrygrid.js.

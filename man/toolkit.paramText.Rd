@@ -4,24 +4,24 @@
 \name{toolkit.paramText}
 \alias{toolkit.paramText}
 \title{JavaScript function: Returns a text input Toolkit Control.}
-\arguments{
-\item{id}{\code{string} when \code{getData} or \code{setData} is
+\section{Arguments}{\itemize{
+\item{\code{id} \code{string} when \code{getData} or \code{setData} is
 called on the container, the value at \code{'id'} refers to this
 selector. The HTML id is set to \code{'param-' + id}.}
-\item{container}{\code{\link{toolkit.HTMLContainerElement}} [optional] Where to put the control.}
-\item{translations}{\code{object} Optional mapping: \code{translations.id}
+\item{\code{container} \code{\link{toolkit.HTMLContainerElement}} [optional] Where to put the control.}
+\item{\code{translations} \code{object} Optional mapping: \code{translations.id}
 is the name of the control to be displayed and \code{translations.help}
 is help text to be displayed if the user hovers over the label}
-\item{initial}{\code{string} Optional initial value for the control}
-\item{callback}{\code{function} Optional function to be called whenever the
+\item{\code{initial} \code{string} Optional initial value for the control}
+\item{\code{callback} \code{function} Optional function to be called whenever the
 input value changes}
-\item{validate}{\code{function} Optional function returning \code{true}
+\item{\code{validate} \code{function} Optional function returning \code{true}
 if passed a value that this control should accept or \code{false}
 otherwise.}
-}
-\value{
-Text input control.
-}
+}}
+\section{Return Value}{\itemize{
+\item Text input control.
+}}
 \description{
 Any text is permitted unless a \code{validate} function is supplied.
 }
